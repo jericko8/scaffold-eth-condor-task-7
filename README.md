@@ -14,29 +14,39 @@ Prerequisites: [Node (v16 LTS)](https://nodejs.org/en/download/) plus [Yarn](htt
 > clone/fork 🏗 scaffold-eth:
 
 ```bash
-git clone https://github.com/scaffold-eth/scaffold-eth.git
+git clone https://github.com/jericko8/scaffold-eth-condor-task-7.git
+npm install -g yarn
 ```
 
 > install and start your 👷‍ Hardhat chain:
 
 ```bash
-cd scaffold-eth
+cd scaffold-eth-condor-task-7.git
 yarn install
-yarn chain
 ```
 
-> in a second terminal window, start your 📱 frontend:
+> in a second terminal window, 🛰 deploy your contract:
 
 ```bash
 cd scaffold-eth
-yarn start
-```
-
-> in a third terminal window, 🛰 deploy your contract:
-
-```bash
-cd scaffold-eth
+yarn generate
+yarn account
 yarn deploy
+```
+
+> build your dapp & upload 🏗 scaffold-eth:
+
+```bash
+yarn build
+yarn surge
+```
+😬 Windows users beware! You may have to change the surge code in `packages/react-app/package.json` to just `"surge": "surge ./build"`,
+
+> test and verify 🏗 scaffold-eth:
+
+```bash
+yarn test
+yarn verify --network condor
 ```
 
 🔏 Edit your smart contract `YourContract.sol` in `packages/hardhat/contracts`
