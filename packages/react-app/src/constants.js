@@ -14,6 +14,13 @@ const localRpcUrl = process.env.REACT_APP_CODESPACES
   : "http://" + (global.window ? window.location.hostname : "localhost") + ":8545";
 
 export const NETWORKS = {
+  condor: {
+    name: "condor",
+    color: "#666666",
+    chainId: 188881,
+    blockExplorer: "https://explorer.condor.system",
+    rpcUrl: "https://testnet.condor.system/rpc",
+  },
   localhost: {
     name: "localhost",
     color: "#666666",
