@@ -34,15 +34,15 @@ yarn account
 yarn deploy
 ```
 
-> clone/fork 🏗 scaffold-eth:
+> build your dapp & upload 🏗 scaffold-eth:
 
 ```bash
 yarn build
 yarn surge
 ```
-😬 Windows users beware! You may have to change the surge code in packages/react-app/package.json to just "surge": "surge ./build",
+😬 Windows users beware! You may have to change the surge code in `packages/react-app/package.json` to just `"surge": "surge ./build"`,
 
-> clone/fork 🏗 scaffold-eth:
+> test and verify 🏗 scaffold-eth:
 
 ```bash
 yarn test
