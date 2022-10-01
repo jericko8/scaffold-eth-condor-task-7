@@ -34,15 +34,20 @@ yarn account
 yarn deploy
 ```
 
-> in a third terminal 
+> clone/fork 🏗 scaffold-eth:
 
-'''bash
+```bash
 yarn build
 yarn surge
-yarn test
-'''
+```
 😬 Windows users beware! You may have to change the surge code in packages/react-app/package.json to just "surge": "surge ./build",
 
+> clone/fork 🏗 scaffold-eth:
+
+```bash
+yarn test
+yarn verify --network condor
+```
 
 🔏 Edit your smart contract `YourContract.sol` in `packages/hardhat/contracts`
 
