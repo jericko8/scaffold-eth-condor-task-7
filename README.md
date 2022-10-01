@@ -24,16 +24,15 @@ npm install -g yarn
 cd scaffold-eth-condor-task-7.git
 yarn install
 yarn chain
-yarn deploy
 ```
 
 > in a second terminal window, 🛰 deploy your contract:
 
 ```bash
+yarn deploy
 cd scaffold-eth
 yarn generate
 yarn account
-yarn deploy
 ```
 
 > build your dapp & upload 🏗 scaffold-eth:
