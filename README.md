@@ -29,10 +29,9 @@ yarn chain
 > in a second terminal window, 🛰 deploy your contract:
 
 ```bash
-yarn deploy
-cd scaffold-eth
 yarn generate
 yarn account
+yarn deploy
 ```
 
 > build your dapp & upload 🏗 scaffold-eth:
