@@ -14,8 +14,9 @@ Prerequisites: [Node (v16 LTS)](https://nodejs.org/en/download/) plus [Yarn](htt
 > clone/fork 🏗 scaffold-eth:
 
 ```bash
-git clone https://github.com/jericko8/scaffold-eth-condor-task-7.git
 npm install -g yarn
+git clone https://github.com/jericko8/scaffold-eth-condor-task-7.git
+git checkout
 ```
 
 > install and start your 👷‍ Hardhat chain:
@@ -23,12 +24,12 @@ npm install -g yarn
 ```bash
 cd scaffold-eth-condor-task-7.git
 yarn install
+yarn chain
 ```
 
 > in a second terminal window, 🛰 deploy your contract:
 
 ```bash
-cd scaffold-eth
 yarn generate
 yarn account
 yarn deploy
@@ -48,6 +49,10 @@ yarn surge
 yarn test
 yarn verify --network condor
 ```
+
+### Automated with Gitpod
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/jericko8/scaffold-eth-condor-task-7)
 
 🔏 Edit your smart contract `YourContract.sol` in `packages/hardhat/contracts`
 
@@ -127,6 +132,4 @@ Join the telegram [support chat 💬](https://t.me/joinchat/KByvmRe5wkR-8F_zz6Aj
 
 🙏 Please check out our [Gitcoin grant](https://gitcoin.co/grants/2851/scaffold-eth) too!
 
-### Automated with Gitpod
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/scaffold-eth/scaffold-eth)
