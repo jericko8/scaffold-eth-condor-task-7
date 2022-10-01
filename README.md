@@ -14,8 +14,9 @@ Prerequisites: [Node (v16 LTS)](https://nodejs.org/en/download/) plus [Yarn](htt
 > clone/fork 🏗 scaffold-eth:
 
 ```bash
-git clone https://github.com/jericko8/scaffold-eth-condor-task-7.git
 npm install -g yarn
+git clone https://github.com/jericko8/scaffold-eth-condor-task-7.git
+git checkout
 ```
 
 > install and start your 👷‍ Hardhat chain:
