@@ -35,7 +35,8 @@ yarn deploy
 ```
 
 > in a third terminal 
-'''
+
+'''bash
 yarn build
 yarn surge
 yarn test
