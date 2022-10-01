@@ -23,6 +23,8 @@ npm install -g yarn
 ```bash
 cd scaffold-eth-condor-task-7.git
 yarn install
+yarn chain
+yarn deploy
 ```
 
 > in a second terminal window, 🛰 deploy your contract:
